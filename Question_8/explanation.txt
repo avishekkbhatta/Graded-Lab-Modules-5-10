@@ -1,0 +1,2 @@
+Command: ./bg_move.sh my_files
+Explanation: I executed the script to move files from 'my_files' to a 'backup' subdirectory. I used the '&' operator to run each 'mv' command in the background and 'echo $!' to display the Process ID (PID) of each background job. Finally, I used the 'wait' command to ensure the script paused until all background move operations were finished.

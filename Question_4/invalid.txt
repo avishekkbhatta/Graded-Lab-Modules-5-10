@@ -1,0 +1,3 @@
+broken.email@gmail.com
+user@domain.org
+bad_email_format

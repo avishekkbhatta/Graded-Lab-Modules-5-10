@@ -1,0 +1,7 @@
+john123@gmail.com
+lisa@yahoo.com
+john123@gmail.com
+broken.email@gmail.com
+user@domain.org
+bad_email_format
+alice@company.com

@@ -1,0 +1,2 @@
+Command: gcc signal_handler.c -o signal_handler && ./signal_handler
+Explanation: I created a C program where the parent process registers custom handlers for SIGTERM and SIGINT using 'signal()'. It forks two children: one sleeps for 5 seconds and sends SIGTERM (which the parent logs but continues running), and another sleeps for 10 seconds and sends SIGINT (which causes the parent to exit gracefully).

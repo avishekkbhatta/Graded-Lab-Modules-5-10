@@ -1,0 +1,3 @@
+Command: ./validate_results.sh marks.txt
+Explanation: I executed the script with 'marks.txt'. The script used a 'while' loop with 'IFS=,' to parse the CSV file line by line. Inside the loop, it checked if each subject mark was less than 33, counted the failures, and categorized students into 'Passed All' or 'Failed One' based on that count.
+

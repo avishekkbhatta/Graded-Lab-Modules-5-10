@@ -1,0 +1,2 @@
+Command: gcc zombie_prevent.c -o zombie_prevent && ./zombie_prevent
+Explanation: I wrote a C program using 'fork()' to create child processes. The parent process used a 'while' loop with 'wait()' to capture the exit status of each child, ensuring they were removed from the process table and preventing zombie processes. (Note: Output verified via Linux environment as local environment is Windows/MinGW).

@@ -1,0 +1,2 @@
+Command: ./emailcleaner.sh
+Explanation: I processed 'emails.txt' using 'grep -E' with the regex '^[a-zA-Z0-9]+@[a-zA-Z]+\.com$' to filter valid emails. I piped the valid output to 'sort' and 'uniq' to remove duplicates before saving to 'valid.txt'. I used 'grep -v' to capture lines that did not match the pattern into 'invalid.txt'.

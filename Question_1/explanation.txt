@@ -1,0 +1,5 @@
+Command: ./analyze.sh test.txt
+Explanation: I ran the script with a file argument. The script detected it was a regular file using the '-f' condition and used the 'wc' command to count and display the lines, words, and characters.
+
+Command: ./analyze.sh .
+Explanation: I ran the script with '.' (current directory) as the argument. The script detected it was a directory using the '-d' condition and used the 'find' command to count the total files and .txt files.

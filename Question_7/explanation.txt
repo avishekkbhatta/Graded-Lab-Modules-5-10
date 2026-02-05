@@ -1,0 +1,2 @@
+Command: ./patterns.sh
+Explanation: I executed the script to filter words from 'input.txt'. I used 'tr' to split the text into individual words. Then, I used 'grep -iE' with specific regular expressions to filter words into three categories: strictly vowels (^[aeiou]+$), strictly consonants, and mixed words starting with a consonant, saving each into its own text file.

@@ -1,0 +1,3 @@
+Command: ./log_monitor.sh server.log
+Explanation: I executed the script on 'server.log'. The script validated the file existed, counted the occurrences of INFO, WARNING, and ERROR using 'grep -c', and identified the last error using 'tail -n 1'. It displayed the stats to the screen and saved them to a dated text file.
+

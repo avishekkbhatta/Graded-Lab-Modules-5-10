@@ -1,0 +1,3 @@
+Command: ./metrics.sh
+Explanation: I executed the script to analyze 'input.txt'. I used 'tr' to tokenize the file into one word per line (removing punctuation). I used 'awk' and 'sort' to determine the longest and shortest words based on character length, and counted unique words using 'sort | uniq | wc -l'.
+

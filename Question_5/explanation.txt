@@ -1,0 +1,2 @@
+Command: ./sync.sh dirA dirB
+Explanation: I executed the script to compare 'dirA' and 'dirB'. The script iterated through files in each directory to identify unique files (using the '-e' existence check) and used the 'cmp -s' command to compare the contents of files found in both locations, reporting whether they matched or differed.

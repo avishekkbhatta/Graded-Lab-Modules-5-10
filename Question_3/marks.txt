@@ -1,0 +1,5 @@
+101,John Doe,45,50,60
+102,Jane Smith,20,55,70
+103,Bob Brown,30,25,80
+104,Alice Green,80,90,95
+105,Mike White,32,40,50
